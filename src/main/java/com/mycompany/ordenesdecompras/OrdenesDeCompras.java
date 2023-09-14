@@ -8,11 +8,12 @@ package com.mycompany.ordenesdecompras;
  * Esta clase ejecuta la aplicación.
  */
 public class OrdenesDeCompras {
+    private static App app;
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
 
-        App app = new App();
+        app = new App();
         app.iniciar();
     }
 }
